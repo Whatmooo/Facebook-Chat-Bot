@@ -4,3 +4,4 @@ app.get('/webhook/', function (req, res) {
   }
   res.send('Error, wrong validation token');
 })
+curl -ik -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=<EAAHjqJyJZBSIBAEvVV8DnLFmqyStrnVnkJkA1uE6uUDZBEfZCQmReI7U6oTHN5ejtH2JDoAkZBxdxIoXVWZAbxwPwrQYP1ys5LRE74dXrmQFGjX1pmC9yRg9AMDjlTJ3Tb6tHFLLLn78eXL4MNaAE2brRZB5o7a6LcnpNPyq9FnAZDZD>"
